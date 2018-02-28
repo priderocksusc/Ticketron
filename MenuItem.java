@@ -1,18 +1,28 @@
 /**
- * menu item.
- *
  * @author JM
  * @version 26 Feb 2018
  */
 public class MenuItem
 {
-    public int price = 0, quantity = 0;
-    public String name = "Nothing";
+    private int price = 0, quantity = 0;
+    private String name = "Nothing";
     
     public MenuItem(String name, int price)
     {
         this.name = name;
         this.price = price;
+    }
+    public String getName()
+    {
+        return name;
+    }
+    public double getPrice()
+    {
+        return price / 1.0;
+    }
+    public int getQuantity()
+    {
+        return quantity;
     }
     public void add()
     {

@@ -1,9 +1,6 @@
-
 /**
- * Write a description of class Ticketron here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * @author JM
+ * @version 28 FEB 2018
  */
 public class Ticketron
 {

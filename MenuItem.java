@@ -4,10 +4,11 @@
  */
 public class MenuItem
 {
-    private int price = 0, quantity = 0;
+    private double price = 0.00;
+    private int quantity = 0;
     private String name = "Nothing";
     
-    public MenuItem(String name, int price)
+    public MenuItem(String name, double price)
     {
         this.name = name;
         this.price = price;
@@ -18,7 +19,7 @@ public class MenuItem
     }
     public double getPrice()
     {
-        return price / 1.0;
+        return price;
     }
     public int getQuantity()
     {

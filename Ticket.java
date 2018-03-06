@@ -35,17 +35,25 @@ public class Ticket {
 	public void remove(){
 		remove(this.size-1);
 	}
-    public int getSize(){	return this.size;	}
-    public String getName(){	return this.name;	}
-    public double getPrice(){	return this.price;	}
-    public void setName(String newName) {    	this.name = newName;    }
+	public int getSize(){	
+		return this.size;
+	}
+	public String getName(){	
+		return this.name;
+	}
+	public double getPrice(){	
+		return this.price;	
+	}
+	public void setName(String newName){    	
+		this.name = newName;    
+	}
 
-    @Override
-    public String toString(){
-    	String list = "";
-	    for(MenuItem i : registry){	
-	    	list += i.getName();
-	    }
-	    return list;
+	@Override
+	public String toString(){
+		String list = "";
+		for(MenuItem i : registry){	
+			list += i.getName();
+		}
+		return list;
 	}
 }

@@ -4,9 +4,9 @@
  */
 public class MenuItem
 {
-    private double price = 0.00;
+    private double price;
+    private String name;
     private int quantity = 0;
-    private String name = "Nothing";
     
     public MenuItem(String name, double price)
     {
